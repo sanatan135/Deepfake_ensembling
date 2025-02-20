@@ -27,13 +27,13 @@ Deepfake images continue to be a significant challenge in verifying digital medi
 ## Dataset
 
 The dataset is structured as follows:
-deepfake-image-detection/
-    ├── train/ 
-        ├── real/ 
-        ├──fake/ 
-    ├──val/ 
-        ├── real/ 
-        ├── fake/
+deepfake-image-detection
+    -train 
+       -real
+       -fake 
+    -val
+       -real
+       -fake
 Each folder contains images categorized as either **real** or **fake**. Standard preprocessing steps (resizing to 224×224, normalization, etc.) are applied to prepare the images for model training.
 
 ## Models
